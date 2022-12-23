@@ -33,9 +33,9 @@
                 <div class="col-lg-7 col-md-6 col-6">
                     <div id="main-nav" class="stellarnav">
                         <ul>
-                            <li><a href="{{ route('index') }}">HOME</a></li>
-                            <li><a href="{{ route('about-us') }}" class="active">ABOUT US</a></li>
-                            <li><a href="{{ route('contact.us') }}">CONTACT US</a></li>
+                            <li><a href="{{ route('index') }}" @if(Session::get('page')=="home") class="active" @endif>HOME</a></li>
+                            <li><a href="{{ route('about-us') }}" @if(Session::get('page')=="about-us") class="active" @endif>ABOUT US</a></li>
+                            <li><a href="{{ route('contact.us') }}"@if(Session::get('page')=="contact-us") class="active" @endif>CONTACT US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     @if(Auth::guard('web')->check())
                     <div class="login"> <a href="{{ route('user.logout') }}">LOG OUT </a> </div>
                     @else
-                    <div class="login"> <a href="{{ route('login') }}">LOG IN </a>/ <a href="{{ route('sign-up') }}">SIGN UP</a> </div>
+                    <div class="login"> <a href="{{ route('login') }}" @if(Session::get('page')=="login") class="active" @endif>LOG IN </a>/ <a href="{{ route('sign-up') }}" @if(Session::get('page')=="sign-up") class="active" @endif>SIGN UP</a> </div>
                     @endif
                 </div>
             </div>
