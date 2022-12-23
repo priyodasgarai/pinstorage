@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?5953009a1b9bfe707697ac981a4e4409") format("truetype"), url("./flaticon.woff?5953009a1b9bfe707697ac981a4e4409") format("woff"), url("./flaticon.woff2?5953009a1b9bfe707697ac981a4e4409") format("woff2"), url("./flaticon.eot?5953009a1b9bfe707697ac981a4e4409#iefix") format("embedded-opentype"), url("./flaticon.svg?5953009a1b9bfe707697ac981a4e4409#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-idea:before {
+  content: "ï"";
+}
+
+.flaticon-development:before {
+  content: "ï"‚";
+}
+
+.flaticon-mission:before {
+  content: "ï"ƒ";
+}
+
+.flaticon-eye:before {
+  content: "ï""";
+}
+
+.flaticon-big-light:before {
+  content: "ï"…";
+}
+
+.flaticon-analytics:before {
+  content: "ï"†";
+}
+
+.flaticon-board:before {
+  content: "ï"‡";
+}
+
+.flaticon-hierarchy-levels:before {
+  content: "ï"ˆ";
+}
+
+.flaticon-web-settings:before {
+  content: "ï"‰";
+}
+
+.flaticon-strategy:before {
+  content: "ï"Š";
+}
+
+.flaticon-correct:before {
+  content: "ï"‹";
+}
+
+.flaticon-business-and-finance:before {
+  content: "ï"Œ";
+}
+
+.flaticon-windmill:before {
+  content: "ï"";
+}
+
+.flaticon-strategy-1:before {
+  content: "ï"Ž";
+}
+
+.flaticon-transform:before {
+  content: "ï"";
+}
+
+.flaticon-project-management:before {
+  content: "ï"";
+}
+
+.flaticon-conversation:before {
+  content: "ï"'";
+}
+
+.flaticon-trophy:before {
+  content: "ï";
+}
+
+.flaticon-goal:before {
+  content: "ï""";
+}
+
+.flaticon-interpersonal:before {
+  content: "ï""";
+}
+
+.flaticon-growth:before {
+  content: "ï"•";
+}
+
+.flaticon-support:before {
+  content: "ï"–";
+}
+
+.flaticon-growth-1:before {
+  content: "ï"—";
+}
+
+.flaticon-success:before {
+  content: "ï"˜";
+}
+
+.flaticon-quotation:before {
+  content: "ï"™";
+}
+
+.flaticon-quotation-1:before {
+  content: "ï"š";
+}
+
+.flaticon-conversation-1:before {
+  content: "ï"›";
+}
+
+.flaticon-user:before {
+  content: "ï"œ";
+}
+
+.flaticon-right:before {
+  content: "ï"";
+}
+
+.flaticon-left:before {
+  content: "ï"ž";
+}
+
+.flaticon-globe:before {
+  content: "ï"Ÿ";
+}
+
+.flaticon-advance:before {
+  content: "ï" ";
+}
+
+.flaticon-play-button:before {
+  content: "ï"¡";
+}
+
+.flaticon-checked:before {
+  content: "ï"¢";
+}
+/*# sourceMappingURL=flaticon.css.map */
